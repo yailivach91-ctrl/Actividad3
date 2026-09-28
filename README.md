@@ -130,12 +130,12 @@ function abrirModal(titulo, texto) {
 
 # Capturas de pantalla
 
-
+![Pagina principal](image.png)
 ### Modal de bienvenida
-
-
+![Modal Uno](image-3.png)
 ### Modal con información diferente
-
+![Modal dos](image-2.png)
+![Modal tres](image-1.png)
 ---
 
 # Video
