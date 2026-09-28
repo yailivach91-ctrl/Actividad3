@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Reutilizable</title>
+    <link rel="stylesheet" href="css/componente.css">
+</head>
+<body>
+    <main class="contenedor">
+        <h1>Modal Reutilizable</h1>
+        <p>Componente visual creado con HTML, CSS y JavaScript.</p>
+        <div class="botones">
+            <button onclick="abrirModal('Bienvenida','Este es un modal reutilizable.')">Bienvenida</button>
+            <button onclick="abrirModal('Información','Este componente puede mostrar diferentes títulos y contenidos sin tener que crear otro modal.')">
+                Información
+            </button>
+            <button onclick="abrirModal('Holaa','Gracias por probar mi componente visual.')">
+                Mensaje
+            </button>
+        </div>
+    </main>
+    <div id="modal" class="modal">
+        <div class="modal-contenido">
+            <button class="cerrar" onclick="cerrarModal()">&times;</button>
+            <h2 id="modalTitulo"></h2>
+            <p id="modalTexto"></p>
+            <button class="boton-cerrar" onclick="cerrarModal()">Cerrar</button>
+        </div>
+    </div>
+    <script src="js/componente.js"></script>
+</body>
+</html>
