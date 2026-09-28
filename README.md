@@ -139,4 +139,4 @@ function abrirModal(titulo, texto) {
 ---
 
 # Video
-https://drive.google.com/drive/folders/1hHpD8UPxtx1y9ljQaLBClvw2jEfk8r9x?usp=sharing
+https://drive.google.com/file/d/1prDT6CQiFN08PEKIhZElubE5cY5GBMu1/view?usp=sharing
